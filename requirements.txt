@@ -1,0 +1,24 @@
+# FireGuard Dependencies
+
+# Core
+python-dotenv>=1.0.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# HTTP
+requests>=2.31.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Logging
+loguru>=0.7.0
+
+# Testing
+pytest>=7.4.0
