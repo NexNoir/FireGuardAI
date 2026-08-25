@@ -1,0 +1,3 @@
+2026-08-18 17:53:26,348 | INFO | fireguard.logging_test | logging_config.py:82 | FireGuard logging test started
+2026-08-18 17:53:26,349 | WARNING | fireguard.logging_test | logging_config.py:83 | FireGuard logging warning test
+2026-08-18 17:53:26,349 | ERROR | fireguard.logging_test | logging_config.py:84 | FireGuard logging error test
