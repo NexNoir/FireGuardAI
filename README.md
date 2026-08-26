@@ -2,7 +2,7 @@
 
 ## Production-Oriented Wildfire Monitoring, Detection, Forecasting, and Alerting Platform
 
-**FireGuard** is a Python-based wildfire monitoring and prediction platform designed to combine **live ESP32 sensor telemetry**, **NASA FIRMS satellite-derived fire observations**, **forecasting models**, **historical fire evidence**, **weather information**, **alerts**, and a **Streamlit operational dashboard** into a single modular system.
+**FireGuard Ai** is a Python-based wildfire monitoring and prediction platform designed to combine **live ESP32 sensor telemetry**, **NASA FIRMS satellite-derived fire observations**, **forecasting models**, **historical fire evidence**, **weather information**, **alerts**, and a **Streamlit operational dashboard** into a single modular system.
 
 The project is designed around a clear separation between:
 
@@ -50,7 +50,7 @@ The resulting probabilities and horizon-specific predictions are persisted in th
 # Architecture
 
 ```text
-                         FIREGUARD v2.0
+                           FIREGUARD AI 
                                │
              ┌─────────────────┴─────────────────┐
              │                                   │
@@ -119,7 +119,7 @@ The resulting probabilities and horizon-specific predictions are persisted in th
 A simplified production-oriented structure is:
 
 ```text
-fireguard_v2.0/
+fireguard AI/
 │
 ├── app.py
 ├── config.py
@@ -1213,7 +1213,7 @@ FireGuard integrates concepts and data workflows associated with:
 
 # Contact
 
-**Project:** FireGuard v2.0
+**Project:** FireGuard Ai
 
 **Repository:** `<YOUR_GITHUB_REPOSITORY_URL>`
 
@@ -1242,13 +1242,13 @@ FireGuard integrates concepts and data workflows associated with:
 │                         +                                   │
 │                                                             │
 │  NASA FIRMS PRODUCTION PIPELINE                             │
-│  ├── FIRMS-derived features                                │
-│  ├── 24H production model                                  │
-│  ├── 48H production model                                  │
-│  └── 72H production model                                  │
+│  ├── FIRMS-derived features                                 │
+│  ├── 24H production model                                   │
+│  ├── 48H production model                                   │
+│  └── 72H production model                                   │
 │          │                                                  │
 │          ▼                                                  │
-│    real_firms_production_service.py                        │
+│    real_firms_production_service.py                         │
 │          │                                                  │
 │          ▼                                                  │
 │      prediction                                             │
@@ -1268,4 +1268,4 @@ FireGuard integrates concepts and data workflows associated with:
 │  Overview | Live | Forecast | Seasonal | Alerts | Analytics │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
-**FireGuard v2.0 is structured as a modular wildfire intelligence platform in which live sensor evidence, remote-sensing inference, database persistence, dashboard visualization, and alert delivery remain separately identifiable and auditable components.**
+**FireGuard Ai is structured as a modular wildfire intelligence platform in which live sensor evidence, remote-sensing inference, database persistence, dashboard visualization, and alert delivery remain separately identifiable and auditable components.**
